@@ -22,3 +22,11 @@ authManager.put(authRes!);
 // Access the restricted endpoint
 var result = await client.restricted.superSecret();
 ```
+
+## Disclaimer
+
+This is just an example, it might contain security flaws.
+
+**DO NOT** just copy the code for a production project.
+
+**DO NOT** use the passwords, from this example.
